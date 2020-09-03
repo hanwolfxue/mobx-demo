@@ -1,13 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import TodoList from './components/TodoList'
+import { SmartTodo } from './components/Test1'
 
 
 const App = () => (
   <div>
-    <TodoList
-      initialTodos={["Introduce MobX in React", "Make a great app with MobX"]}
-    />
+    <SmartTodo></SmartTodo>
   </div>
 );
 
